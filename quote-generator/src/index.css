@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+
+.app.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.app.dark {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+.quote-card {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 600px;
+  border: 2px solid currentColor;
+  border-radius: 12px;
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+.quote-author {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.like-button {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.theme-toggle,
+.quote-button,
+.font-selector {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
